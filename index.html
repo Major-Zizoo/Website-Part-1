@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Cold Stone</title>
+    </head>
+    <body>
+        <div>
+            <a href="Home.html">Home</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Order</a>
+        </div>
+        <section>
+         <img src="\1.jpg" class="M">
+         <img src="\WhatsApp Image 2024-09-18 at 6.05.36 PM.jpeg" class="M">
+         <img src="\WhatsApp Image 2024-09-18 at 6.11.40 PM.jpeg" class="M">
+        </section>
+        <script>
+        var myIndex=0
+        function carousel(){
+            var i;
+            var x=document.getElementsByClassName("M");
+
+            for (i=0;i<x.length;i++){
+                x[i].style.display="none";
+            }
+
+            myIndex++;
+            if(myIndex> x.length){
+            index=1;
+            }
+
+            x[myIndex -1 ].style.display="block";
+
+            setTimeout(carousel,2000);
+        }
+        carousel();
+        </script>
+    </body>
+</html>
