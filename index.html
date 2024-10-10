@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Cold Stone</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <div>
@@ -9,10 +10,38 @@
             <a href="#">Order</a>
         </div>
         <section>
-         <img src="\1.jpg" class="M">
-         <img src="\WhatsApp Image 2024-09-18 at 6.05.36 PM.jpeg" class="M">
-         <img src="\WhatsApp Image 2024-09-18 at 6.11.40 PM.jpeg" class="M">
+         <img src="\1.jpg" class="M" height="250" width="250">
+         <img src="\WhatsApp Image 2024-09-18 at 6.05.36 PM.jpeg" class="M" height="250" width="250">
+         <img src="\WhatsApp Image 2024-09-18 at 6.11.40 PM.jpeg" class="M" height="250" width="250">
+
         </section>
+        <div>
+            <p><img src="/2.jpg" height="100" width="100">Ice cream is a frozen dessert typically made from 
+              milk or cream that has been flavoured with a 
+              sweetener, either sugar or an alternative, and a spice,
+               such as cocoa or vanilla, or with fruit, such as strawberries
+                or peaches. Food colouring is sometimes added in addition to
+                 stabilizers. The mixture is cooled below the freezing point
+                  of water and stirred to incorporate air spaces and prevent
+                   detectable ice crystals from forming. It can also be made
+                    by whisking a flavoured cream base and liquid nitrogen
+                     together. The result is a smooth, semi-solid foam that
+                      is solid at very low temperatures
+                       (below 2 °C or 35 °F).
+                        It becomes more malleable as its
+                         temperature increases.</p>
+
+                        <p><img src="/3.jpg"  height="100" width="100">Ice cream may be served in dishes, eaten with a spoon,
+                             or licked from edible wafer ice cream cones held by
+                              the hands as finger food. Ice cream may be served 
+                              with other desserts—such as cake or pie—or used as 
+                              an ingredient in cold dishes—like ice cream floats, 
+                              sundaes, milkshakes, and ice cream cakes—or in baked 
+                              items such as Baked Alaska.</p>
+        </div>
+        <footer>
+            All rights reserved 2024
+        </footer>
         <script>
         var myIndex=0
         function carousel(){
@@ -25,7 +54,7 @@
 
             myIndex++;
             if(myIndex> x.length){
-            index=1;
+            myIndex=0;
             }
 
             x[myIndex -1 ].style.display="block";
